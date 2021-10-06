@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-I learn android - development
+Here my android applications and other projects on kotlin\java. 
