@@ -7,10 +7,10 @@ I use all learning methods for impoving my skills: textbooks, searching google, 
 All this, I practice everything, that i learnt.
 
 ## My skills:
-Basis knowledge (needed: Java, Kotlin, XML, SQL, Git) and optional: HTML, CSS, C++
+Basic knowledge (needed: Java, Kotlin, XML, SQL, Git) and optional: HTML, CSS, C++
 
 
-<img src="https://user-images.githubusercontent.com/71211299/137467114-a9b19cdc-4a29-475d-97d1-0ce4e34e36c7.png" width="100" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467160-f4d554ea-abaa-47c4-9158-41f37a63ac46.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467208-35a9a79b-f33c-4658-895e-97f184163da2.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467301-24296c1e-1ab3-405e-8123-8da0faebfb4b.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137466836-6bfdb406-68d0-4b1a-a54a-a00ecf024201.png" width="220" height="120"><img src="https://user-images.githubusercontent.com/71211299/137469882-610f92df-9232-4bca-95b7-3a250a0510c8.png" width="110" height="120"><img src="https://user-images.githubusercontent.com/71211299/137469903-89eabc8a-58eb-4017-b6ed-b79e56d112f6.png" width="120" height="120">
+<img src="https://user-images.githubusercontent.com/71211299/137467114-a9b19cdc-4a29-475d-97d1-0ce4e34e36c7.png" width="100" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467160-f4d554ea-abaa-47c4-9158-41f37a63ac46.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467208-35a9a79b-f33c-4658-895e-97f184163da2.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137467301-24296c1e-1ab3-405e-8123-8da0faebfb4b.png" width="120" height="120"><img src="https://user-images.githubusercontent.com/71211299/137466836-6bfdb406-68d0-4b1a-a54a-a00ecf024201.png" width="220" height="120"><img src="https://user-images.githubusercontent.com/71211299/137469882-610f92df-9232-4bca-95b7-3a250a0510c8.png" width="100" height="120"><img src="https://user-images.githubusercontent.com/71211299/137469903-89eabc8a-58eb-4017-b6ed-b79e56d112f6.png" width="120" height="120">
 
 Advanced knowledge: 
 * Android SDK
@@ -26,30 +26,50 @@ Advanced knowledge:
 
 This list may be expanded in this moment, because i always update (refresh) my knowledge and skills 
 
-## Example of solved task from Codewars (4 kyu)
+## My code fragments (from GitHub repos): 
 ```kotlin
-object SumSquaredDivisors {
-    fun listSquared(m: Long, n: Long): String {
-        val result = mutableListOf<String>()
-        for (i in m..n){
-            val square = findAllDivisorsInSquare(i).sum()
-            if ((kotlin.math.sqrt(square.toDouble()) * 10 % 10) == 0.0)
-                result.add("[$i, ${square}]")
-        }
-        return result.joinToString( prefix = "[", postfix = "]")
+    private fun checkAnswers(array: IntArray, rightArray: IntArray): Int {
+        var countRightScore = 0
+        for (i in array.indices)
+            if (resources.getString(array[i]) == resources.getString(rightArray[i]))
+                countRightScore++
+        return countRightScore
     }
 
-    private fun findAllDivisorsInSquare(n: Long): Set<Long> {
-        val set: MutableSet<Long> = mutableSetOf(1, n * n)
-        for (i in 2 until kotlin.math.sqrt(n.toDouble()).toLong() + 1)
-            if (n % i == 0L){
-                set.add(i * i)
-                val buf = (n.toDouble() / i).toLong()
-                set.add(buf * buf)
-            }
-        return set
+    private fun getResult(score: Int, total: Int): String =
+        "Your result: $score of $total\n(${(score.toFloat() / total * 100).toInt()}%)"
+
+    private fun generateReportAnswers(messageResult: String, answerArray: IntArray): String {
+        var text = "$messageResult\n"
+        val questionsArray = QuestionsAndAnswersObject.questionAndAnswers
+        for (i in questionsArray.indices)
+            text += "\n${i + 1}) ${resources.getString(questionsArray[i].first)}" +
+                    "\nYour answer: ${resources.getString(answerArray[i])}\n"
+        return text
     }
-}
+```
+
+```kotlin 
+    fun addStudent(student: Student) {
+        executor.execute {
+            studentDao.addStudent(student)
+        }
+        student.pathKey = firebase.reference.push().key ?: ""
+        firebase.reference.child(student.pathKey).setValue(student)
+    }
+```
+
+```kotlin
+    @Query("SELECT * FROM student WHERE id=(:id)")
+    fun getStudent(id: UUID): LiveData<Student?>
+
+    @Query(
+        "SELECT * FROM Student ORDER BY " +
+                "CASE WHEN :sortMode = 'name' THEN name END ASC," +
+                "CASE WHEN :sortMode = 'age' THEN age END ASC," +
+                "CASE WHEN :sortMode = 'rating' THEN rating END DESC"
+    )
+    fun getStudents(sortMode: String = ""): LiveData<List<Student>>
 ```
 ## Contact info:
 - [VK](https://vk.com/dietmargrandarisingcosmosalexman)
@@ -57,3 +77,6 @@ object SumSquaredDivisors {
 - [Github](https://github.com/8DietmarBarbarossa8)
 - Telegram: Dietmar_Granda
 - [LinkedIn](https://www.linkedin.com/in/dmitriy-korzhovnik-43a256210/)
+- [Skype](https://join.skype.com/invite/NNESJ5sEzs3Y)
+## Conclusion
+Now I try very hard to use English. I want to work to be useful for you. If you has any questions, suggestions or offers - you can contact me (above).
