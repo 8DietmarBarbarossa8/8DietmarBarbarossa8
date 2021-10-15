@@ -1,22 +1,14 @@
 # CV
-## Contact info:
-I'm [Dmitriy Korzhovnik](https://vk.com/dietmargrandarisingcosmosalexman)
-- Discord: Dietmar Granda#5636
-- [Github](https://github.com/8DietmarBarbarossa8)
-- Telegram: Dietmar_Granda
-- [LinkedIn](https://www.linkedin.com/in/dmitriy-korzhovnik-43a256210/)
-
-## Short bio:
-I'm a student of the best it-university in the World and like Android-development. 
-I want to learn Android with active using programming language Kotlin. I try to combine the qualities of independent and team work.
-I'm a 2nd year student at the university. 4 months of studying java \ kotlin and 2 months of working with Andoid Studio.
-In free time self-study programming language from textbooks, searching google, reading documentaion and practice
+## About me:
+I'm a student of the best IT-university in the World (: - )) (Belarusian State University of Informatics and Radioelectronics). 
+I'm actively learning Androig using programming languages Kotlin \ java and with a wide variety of android libraries.
+I'm a 3nd year student at the university now. 
+I use all learning methods for impoving my skills: textbooks, searching google, reading documentaion, watching video-guides on YouTube, a.o. 
+All this, I practice everything, that i learnt.
 
 ## My skills:
-PL Java and Kotlin
-Gook knowledge on VCS Git, Algorithm, Data Structure, 
-IDE Intelllij Idea and Android Studio, OOP, Lambda, JVM, Design patterns, etc.
-My english level about A2-B1. I can read and understand documentation.
+![image](https://user-images.githubusercontent.com/71211299/137466836-6bfdb406-68d0-4b1a-a54a-a00ecf024201.png)
+
 
 ## Example of solved task from Codewars (4 kyu)
 ```kotlin
@@ -43,7 +35,9 @@ object SumSquaredDivisors {
     }
 }
 ```
-
-
-
-
+## Contact info:
+I'm [Dmitriy Korzhovnik](https://vk.com/dietmargrandarisingcosmosalexman)
+- Discord: Dietmar Granda#5636
+- [Github](https://github.com/8DietmarBarbarossa8)
+- Telegram: Dietmar_Granda
+- [LinkedIn](https://www.linkedin.com/in/dmitriy-korzhovnik-43a256210/)
