@@ -7,6 +7,10 @@ I use all learning methods for impoving my skills: textbooks, searching google, 
 All this, I practice everything, that i learnt.
 
 ## My skills:
+* Basis knowledge: 
+
+
+HTML + CSS
 ![image](https://user-images.githubusercontent.com/71211299/137466836-6bfdb406-68d0-4b1a-a54a-a00ecf024201.png)
 
 
