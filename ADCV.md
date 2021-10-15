@@ -72,7 +72,7 @@ This list may be expanded in this moment, because i always update (refresh) my k
     fun getStudents(sortMode: String = ""): LiveData<List<Student>>
 ```
 ## Contact info:
-- [VK](https://vk.com/dietmargrandarisingcosmosalexman)
+- [VK](https://vk.com/dietmariosgrandcodemostechnoman)
 - Discord: Dietmar Granda#5636
 - [Github](https://github.com/8DietmarBarbarossa8)
 - Telegram: Dietmar_Granda
