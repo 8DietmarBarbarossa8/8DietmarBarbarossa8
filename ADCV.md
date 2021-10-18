@@ -1,9 +1,9 @@
 # CV
 ## About me:
-I'm a student of the best IT-university in the World (: - )) (Belarusian State University of Informatics and Radioelectronics). 
-I'm actively learning Androig using programming languages Kotlin \ java and with a wide variety of android libraries.
+I'm a student of the best IT-university in the World (: - )) (Belarusian State University of Informatics and Radio-electronics). 
+I'm actively learning Android using programming languages Kotlin \ java and with a wide variety of android libraries.
 I'm a 3nd year student at the university now. 
-I use all learning methods for impoving my skills: textbooks, searching google, reading documentaion, watching video-guides on YouTube, a.o. 
+I use all learning methods for improving my skills: textbooks, searching google, reading documentaion, watching video-guides on YouTube, a.o. 
 All this, I practice everything, that i learnt.
 
 ## My skills:
@@ -20,7 +20,7 @@ Advanced knowledge:
 * Recyclerview
 * Fragments
 * Services
-* Coruntines (Executor)
+* Corountines (Executor)
 * Local (sqlite, room, cursor) and remote DB (firebase)
 * Work with json (Glide and Coil)
 
