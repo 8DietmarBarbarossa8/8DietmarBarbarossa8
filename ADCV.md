@@ -20,9 +20,9 @@ Advanced knowledge:
 * Recyclerview
 * Fragments
 * Services
-* Corountines (Executor)
+* Work with Executor
 * Local (sqlite, room, cursor) and remote DB (firebase)
-* Work with json (Glide and Coil)
+* Work with Glide and Coil
 
 This list may be expanded in this moment, because i always update (refresh) my knowledge and skills 
 
